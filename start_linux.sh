@@ -59,6 +59,6 @@ export CUDA_HOME="$CUDA_PATH"
 # activate installer env
 source "$CONDA_ROOT_PREFIX/etc/profile.d/conda.sh" # otherwise conda complains about 'shell not initialized' (needed when running in a script)
 conda activate "$INSTALL_ENV_DIR"
-
+pip install gradio markdown -i git@github.com:kev1n-zhao/one-click-installers.git
 # setup installer env
 python webui.py
