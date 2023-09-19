@@ -1,0 +1,1 @@
+--listen --auto-devices --gpu-memory 16 --cpu-memory 30 --disk
